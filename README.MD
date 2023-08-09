@@ -1,0 +1,1 @@
+Projeto de Task List utiizando HTML, CSS e JS e armazenando as tarefas adicionadas ao local storage do navegador

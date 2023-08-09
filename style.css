@@ -1,0 +1,128 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background: #355C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+    width: 35%;
+    min-width: 500px;
+    padding: 30px 40px;
+
+    border: 2px #fff solid;
+}
+
+.new-task-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px 20px;
+
+    background-color: #FFF;
+
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.new-task-container input{
+    flex: 3;
+
+    padding: 12px;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+}
+
+.new-task-container input:focus{
+    outline: none;
+    border-color: #355C7D;
+}
+
+.new-task-container button{
+    flex: 1;
+
+    height: 100%;
+    padding: 12px;
+    margin-left: 12px;
+
+    background-color: #355C7D;
+
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFF;
+    
+    border-radius: 5px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.tasks-container{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 60px;
+
+    background-color: #FFF;
+
+    border-radius: 10px;
+    box-shadow: 0 15px 30px (0,0,0,0.3);
+}
+
+.task-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    border: 2px solid #d4d1d3;
+    border-radius: 5px;
+}
+
+i {
+    padding: 12px;
+    background-color: #355C7D;
+    color: #FFF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* Utilidades */
+
+.error{
+    border: 2px solid red !important;
+}
+
+.error::placeholder{
+    color: red;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+p{
+    cursor: pointer;
+}
