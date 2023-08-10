@@ -105,7 +105,7 @@ const updateLocalStorage = () => {
 const refreshTasksUsingLocalStorage = () => {
     const tasksFromLocalStorage = JSON.parse(localStorage.getItem('tasks'));
 
-    if(!tasksFromLocalStorage) return;
+    if(!tasksFromLocalStorage) return; 
     
     for(const task of tasksFromLocalStorage){
          // Criação dos elementos HTML que conterão as informações

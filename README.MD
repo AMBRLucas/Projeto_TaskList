@@ -1,1 +1,3 @@
-Projeto de Task List utiizando HTML, CSS e JS e armazenando as tarefas adicionadas ao local storage do navegador
+Task List Responsiva para desktop e mobile
+Utilizando HTML, CSS e JS
+Armazenando as Tarefas no Local Storage do navegador

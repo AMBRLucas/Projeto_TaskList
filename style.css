@@ -14,6 +14,7 @@ body{
     justify-content: center;
 
     height: 100vh;
+    max-width: 100vh;
 
     background: #355C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
@@ -125,4 +126,16 @@ i {
 
 p{
     cursor: pointer;
+}
+
+@media(max-width: 768px){
+    body{
+        background: #6C5B7B;
+        align-items: flex-start;
+    }
+    
+    .container{
+        border: none;
+        padding-top: 20px;
+    }
 }
